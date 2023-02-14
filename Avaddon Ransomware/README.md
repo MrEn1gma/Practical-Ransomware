@@ -51,7 +51,7 @@ if ( v4 != (void **)((char *)v3 + v15) )
 }
 ```
 
-- It can be automated decrypt by using IDAPython, the script I uploaded in this project. Here is the result:
+- It can be decrypted automatelly by using IDAPython, the script I uploaded in this project. Here is the result:
 
 ```txt
 .rdata:00AA4398                 dd offset sub_A21020    ; DECRYPTED: SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
